@@ -1,18 +1,22 @@
-h4{
-	display: inline;
-	
-}
-
-h1{
+	/*h4{
+		display: inline;
+		
+	}
+*/
+/*h1{
 	display:inline;
 }
-
+*/
+body{
+	margin-left: 160px;
+	margin-right: 160px;
+}
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
-
+flex-wrap: wrap;
 }
 
 nav {
@@ -20,6 +24,7 @@ nav {
 	justify-content:space-evenly;
 	padding: 20px;
 	width:600px;
+	flex-wrap: wrap;
 }
 
 
@@ -29,10 +34,12 @@ nav {
 }
 
 #profile{
-	display: inline;
+	display: inline-block;
 	margin-left: auto;
-	margin-right: 350px;
+	margin-right: 200px;
+	width: 325px;
 	height: auto;
+	margin-bottom:40px;
 
 }
 
@@ -41,10 +48,77 @@ nav {
 	justify-content: space-between;
 	flex-direction: row-reverse;
 	margin-top: 100px;
+	flex-wrap: wrap;
 }
 
 
-.images{
-
+.intro{
+	/*margin-left:50px;*/
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+	flex-wrap: wrap;
 
 }
+
+.name{
+	font-size: 50px;
+	/*margin-left:50px ;*/
+}
+.about{
+font-size: 18px;
+padding: 8px 12px 8px 12px;
+color: white;
+background-color: #7562E0;
+border: none;
+border-radius: 10px;
+font-weight: bold ;
+}
+
+.project{
+	margin-left: 20px;
+font-size: 18px;
+
+padding: 8px 12px 8px 12px;
+/*color:#7562E0;*/
+/*background-color: #7562E0;*/
+/*border: none;*/
+border-radius: 10px;
+font-weight: bold ;
+border-color: #7562E0;
+border-style: solid;
+}
+.content{
+	padding:10px;
+	margin: 0px;
+}
+.buttons{
+	margin-top: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.project:hover{
+	color:white;
+	background-color: #7562E0;
+	/*border-color: white;*/
+	padding: 10px 13px 10px 13px;
+}
+
+
+.about:hover{
+	border: solid;
+	background-color: #1A1A29;
+	border-color:#7562E0 ;
+	padding: 9px 13px 9px 13px;
+	border-width: 2px;
+}
+
+<style>
+.rotated {
+  transform: rotate(90deg);
+  transform-origin: center center; /* rotate around the center */
+}
+</style>
