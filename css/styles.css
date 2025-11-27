@@ -116,9 +116,3 @@ a{
 	border-width: 2px;
 }
 
-<style>
-.rotated {
-  transform: rotate(90deg);
-  transform-origin: center center; /* rotate around the center */
-}
-</style>
